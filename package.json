@@ -1,0 +1,32 @@
+{
+  "name": "pom-parsley",
+  "version": "0.0.1",
+  "description": "A custom timesheet parser, inspired by the Pomodoro Technique",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmonax/pom-parsley.git"
+  },
+  "keywords": [
+    "pomodoro",
+    "timesheet",
+    "parsley",
+    "productivity"
+  ],
+  "author": "George A. Michel <sarumonakuba@gmail.com> (http://abjection.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salmonax/pom-parsley/issues"
+  },
+  "homepage": "https://github.com/salmonax/pom-parsley#readme",
+  "engines": {
+    "node": ">=4.4.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
